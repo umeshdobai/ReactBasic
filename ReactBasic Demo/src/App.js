@@ -12,12 +12,12 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
-import Stylesheet from './components/Stylesheet'
-import Inline from './components/Inline'
+import Stylesheet from './CSSDemo/Stylesheet'
+import Inline from './CSSDemo/Inline'
 import './appStyles.css'
 import styles from './appStyles.module.css'
-import Form from './components/Form'
-import LifecycleA from './components/LifecycleA'
+import Form from './FormDemo/Form'
+import LifecycleA from './LifecycleDemo/LifecycleA'
 import Fragmentdemo from './FragmetsDemo/Fragemntdemo'
 import Table from './FragmetsDemo/Table'
 import PureComp from './Pure=component/PureComponent'
@@ -41,9 +41,9 @@ class App extends Component {
       return (
           <div className="App">
 
-            <UserProvider value="Umesh">
+            {/* <UserProvider value="Umesh">
                 <ComponentC />
-            </UserProvider>
+            </UserProvider> */}
 
 
             {/* <Counter 
@@ -85,56 +85,56 @@ class App extends Component {
             {/* <FocusInput /> */}
 
 
-            {/* <RefsDemo /> */}
+            <RefsDemo />
 
             {/* <ParentComp /> */}
 
-            {/*<PureComp />*/}
+            {/* <PureComp /> */}
 
 
-            {/*<Table />*/}
+            {/* <Table /> */}
 
 
-            {/*<Fragmentdemo />*/}
+            {/* <Fragmentdemo /> */}
 
 
-            {/*<LifecycleA />*/}
+            {/* <LifecycleA /> */}
 
 
-            {/*<Form />*/}
+            {/* <Form /> */}
 
 
-            {/*<h1 className='error'>Error</h1>                                                        
-            <h1 className={styles.success}>Success</h1>*/}
+            {/* <h1 className='error'>Error</h1>                                                        
+            <h1 className={styles.success}>Success</h1> */}
 
 
-            {/*<Counter />*/}
+            {/* <Counter /> */}
 
 
-            {/*<Inline />*/}
+            {/* <Inline /> */}
 
 
-            {/*<Stylesheet primary={true} />*/}
+            {/* <Stylesheet primary={true} /> */}
 
 
-            {/*<NameList />*/}
+            {/* <NameList /> */}
 
 
-            {/*<UserGreeting />*/}
+            {/* <UserGreeting /> */}
 
 
-            {/*<ParentComponent />*/}
+            {/* <ParentComponent /> */}
 
-            {/*<FunctionClick />*/}
+            {/* <FunctionClick /> */}
 
             
-            {/*<ClassClick />*/}
+            {/* <ClassClick /> */}
 
 
-            {/*<EventBind />*/}
+            {/* <EventBind /> */}
 
 
-            {/*<Message />*/}
+            {/* <Message /> */}
             
 
             {/*<Greet name="Bruce"  heroName="Batman">
@@ -151,7 +151,7 @@ class App extends Component {
             <Welcome name="Diana" heroName="Wonder Woman"/>*/}
 
 
-            {/*<Hello />*/}
+            {/* <Hello /> */}
 
 
           </div>

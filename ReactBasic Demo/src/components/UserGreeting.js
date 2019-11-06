@@ -6,13 +6,13 @@ class UserGreeting extends Component {
         super(props)
     
         this.state = {
-             isloggedIn: false
+             isloggedIn: true
         }
     }
     
     render() {
 
-       //Short Circuit Opearot............. 
+       //Short Circuit Operator............. 
        return  this.state.isloggedIn && <div>Welcome Umesh</div>
 
 

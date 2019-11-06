@@ -34,7 +34,7 @@ export class EventBind extends Component {
             <div>
                 <div>{this.state.message}</div>
 
-                {/*1.using bining keyword*/}
+                {/*1.using bind method*/}
                 {/*<button onClick={this.clickhandler.bind(this)}>click</button>*/}
 
                 {/*2.using arrow function*/}
